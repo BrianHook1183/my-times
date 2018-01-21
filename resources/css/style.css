@@ -13,6 +13,7 @@ header {
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
+  border: 1px solid black;
 }
 .logo img {
   margin-right: 12px;
@@ -26,4 +27,73 @@ nav span {
 }
 nav a {
     color: black;
+}
+
+
+
+
+.content {
+  border: 1px solid black;
+  display: flex;
+}
+p {
+font-family: Georgia;
+ font-size: 17px;
+ color: black;
+}
+#mainstory {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+.image {
+  height: 300px;
+  display: flex;
+}
+.image span  {
+font-family: Georgia;
+font-weight: bold;
+font-size: 30px;
+color: white;
+text-align: center;
+}
+.column {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.column.large {
+  width: 630px;
+  border: 1px solid black;
+}
+.mother, .monument, .orca, .earth, .burger, .research {
+  border: 1px solid black;
+}
+.mother {
+  background-image: url(../images/img-story-main.png);
+}
+.earth {
+  background-image: url(../images/img-story-2.png);
+}
+.research {
+  background-image: url(../images/img-story-3.png);
+}
+.column.medium {
+  width: 300px;
+  border: 1px solid black;
+}
+.cats {
+  background-image: url(../images/img-story-1.png);
+}
+.fbi, .cats, .brooklyn {
+  border: 1px solid black;
+}
+.column.small {
+  width: 240px;
+  border: 1px solid black;
+}
+.cooker, .newbites {
+  border: 1px solid black;
 }
